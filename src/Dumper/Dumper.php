@@ -24,8 +24,14 @@ class Dumper
         var_dump($expression);
         echo '</pre>';
     }
+    
     public function new()
-   {
-     return false;	
-   }
+    {
+      return false;	
+    }
+    
+    public functino test()
+    {
+      return true;  
+    }
 }

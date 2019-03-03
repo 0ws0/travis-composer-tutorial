@@ -30,4 +30,11 @@ class DumperTest extends TestCase
 	$this->assertTrue($ret);
 
    }
+public function testtest()
+   {
+       $dumper = new \phptravis\Dumper\Dumper();
+       $ret = $dumper->test();
+        $this->assertTrue($ret);
+
+   }
 }
