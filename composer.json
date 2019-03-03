@@ -1,0 +1,21 @@
+{
+    "name": "vision/travis-composer-tutorial",
+    "description": "a tutorial for create php library use composer and travis ci",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangsheng",
+            "email": "sunshine77580@gamilc.om"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpZendo\\": "src/"
+        }
+    }
+}
