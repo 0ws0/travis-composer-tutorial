@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpZendo\Dumper;
+namespace phptravis\Dumper;
 
 /**
  * 打印变量的相关信息
