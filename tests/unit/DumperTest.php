@@ -22,4 +22,12 @@ class DumperTest extends TestCase
 
         $this->assertInstanceOf(\phptravis\Dumper\Dumper::class, $dumper);
     }
+    
+    public function testnew()
+   {
+       $dumper = new \phptravis\Dumper\Dumper();
+       $ret = $dumper->new();
+	$this->assertTrue($ret);
+
+   }
 }

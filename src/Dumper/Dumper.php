@@ -24,4 +24,8 @@ class Dumper
         var_dump($expression);
         echo '</pre>';
     }
+    public function new()
+   {
+     return false;	
+   }
 }
