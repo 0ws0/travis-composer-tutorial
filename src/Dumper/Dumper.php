@@ -30,7 +30,7 @@ class Dumper
       return false;	
     }
     
-    public functino test()
+    public function test()
     {
       return true;  
     }
