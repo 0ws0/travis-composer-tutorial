@@ -1,11 +1,11 @@
 {
-    "name": "0ws0/travis-composer-tutorial",
+    "name": "phptravis/travis-composer-tutorial",
     "description": "a tutorial for create php library use composer and travis ci",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "wangsheng",
+            "name": "0ws0",
             "email": "sunshine77580@gamilc.om"
         }
     ],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpZendo\\": "src/"
+            "phptravis\\": "src/"
         }
     }
 }
