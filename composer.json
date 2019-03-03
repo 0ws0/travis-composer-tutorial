@@ -1,5 +1,5 @@
 {
-    "name": "vision/travis-composer-tutorial",
+    "name": "0ws0/travis-composer-tutorial",
     "description": "a tutorial for create php library use composer and travis ci",
     "type": "library",
     "license": "MIT",
