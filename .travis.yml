@@ -7,4 +7,10 @@ php:
 before_script:
   - composer install
 
+notifications:
+  email:
+    recipients:
+    - 352635484@qq.com
+    on_success: always
+    on_failure: always
 script: ./vendor/bin/phpunit -c phpunit.xml --coverage-text
