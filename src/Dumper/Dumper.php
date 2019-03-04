@@ -29,9 +29,11 @@ class Dumper
     {
       return false;	
     }
-    
+
+
     public function test()
     {
       return true;  
     }
+
 }

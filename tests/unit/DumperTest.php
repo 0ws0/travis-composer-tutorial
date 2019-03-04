@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * DumperTest
- * 
+ *
  */
 class DumperTest extends TestCase
 {
@@ -22,19 +22,21 @@ class DumperTest extends TestCase
 
         $this->assertInstanceOf(\phptravis\Dumper\Dumper::class, $dumper);
     }
-    
-    public function testnew()
-   {
-       $dumper = new \phptravis\Dumper\Dumper();
-       $ret = $dumper->new();
-	$this->assertTrue($ret);
 
-   }
-public function testtest()
-   {
-       $dumper = new \phptravis\Dumper\Dumper();
-       $ret = $dumper->test();
+    public function testnew()
+    {
+        $dumper = new \phptravis\Dumper\Dumper();
+        $ret = $dumper->new();
         $this->assertTrue($ret);
 
-   }
+    }
+
+    public function testtest()
+    {
+        $dumper = new \phptravis\Dumper\Dumper();
+        $ret = $dumper->test();
+         $this->assertTrue($ret);
+
+    }
+
 }
